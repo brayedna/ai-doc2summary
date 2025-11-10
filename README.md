@@ -35,32 +35,32 @@
 ### Page d'accueil et recherche par DOI
 *Interface principale avec le champ de recherche DOI, la zone d'upload de fichiers (drag & drop), et les options d'analyse. L'interface moderne permet de choisir entre la recherche par DOI ou l'upload direct de fichiers PDF/DOCX.*
 
-![Page d'accueil](img/accueil.png)
+![Page d'accueil](img/main.png)
 
 ### Options d'analyse et fonctionnalités
 *Section de configuration permettant de sélectionner le type de résumé (académique, exécutif, technique, etc.), le format de téléchargement (PDF/DOCX), et de visualiser les fonctionnalités principales de l'application.*
 
-![Options d'analyse](img/options_analyse.png)
+![Options d'analyse](img/option_analyz.png)
 
 ### Résultat de l'analyse IA
 *Affichage structuré du résumé généré par l'IA pour un article académique, incluant les métadonnées (titre, type, domaine, qualité), le résumé exécutif, les points clés, les conclusions, et les statistiques de traitement (chunks traités, taux de réussite).*
 
-![Résultat analyse](img/resultat_analyse.png)
+![Résultat analyse](img/resume.png)
 
 ### Fichiers générés
 *Section permettant de télécharger les différents fichiers générés lors du traitement : PDF original, segments de texte structurés, résultats de l'analyse par IA, résumé formaté en Markdown, et rapport complet en DOCX.*
 
-![Fichiers générés](img/fichiers_generes.png)
+![Fichiers générés](img/dl.png)
 
 ### Extraction et découpage en chunks
 *Fichier de chunks généré lors de l'extraction du document, montrant la segmentation intelligente du texte avec métadonnées (type, page, taille) pour chaque segment. Chaque chunk est identifié et structuré pour l'analyse IA.*
 
-![Chunks extraits](img/chunks_extraction.png)
+![Chunks extraits](img/chunks.png)
 
 ### Analyse IA par chunks (JSON)
 *Fichier JSON contenant les résultats de l'analyse IA pour chaque chunk, avec les résumés structurés (titre, concepts clés, résumé, type de contenu, importance) et les réponses brutes de l'IA pour le débogage.*
 
-![Analyse IA JSON](img/analyse_ia_json.png)
+![Analyse IA JSON](img/anlysis.png)
 
 ---
 
